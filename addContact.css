@@ -1,0 +1,146 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+nav img{
+    width: 50px;
+    opacity: 100%;
+}
+nav p {
+    margin: 10px;
+    font-size:20px ;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+}
+
+body{
+    overflow-y:hidden ;
+}
+
+nav{
+    background-color: #DBD8E3;
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 70%;
+}
+a{
+    text-decoration: none;
+}
+#error{
+    color: red;
+    display: none;
+    text-align: center;
+    
+}
+
+.form-container{
+    width: 100vw;
+    height: 80vh;
+    background-color: #DBD8E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    margin: 8px;
+    text-align: center;
+    padding: 10px 50px;
+    border: none;
+    color: #352F44;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+form{
+    z-index: 1;
+    width: 50%;
+    border-radius: 20px;
+    /* margin-left: 50%; */
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#352F44,#121018) ;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#photo{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    color: rgb(255, 255, 255);
+    width: 36%;
+    
+    
+}
+#image{
+    color: white;
+}
+
+#add{
+    color: rgb(0, 0, 0);
+    background-color: #DBD8E3;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+    
+}
+
+#add:disabled{
+    
+    background-color: grey;
+
+
+}
+
+#add[disabled]:hover{
+    cursor: auto;
+    box-shadow: none;
+}
+
+#add:hover{
+    cursor: pointer;
+    /* border: 2px solid rgb(153, 119, 119); */
+    box-shadow: 3px 3px 10px white;
+}
+
+.circle{
+    position: absolute;
+    bottom: 0;
+    transform: translate(0,10%);
+    width: 30%;
+    z-index: 0.5;
+}
+
+.back{
+    padding: 10px ;
+    background-color: #DBD8E3;
+
+}
+
+.back button{
+    color: rgb(255, 255, 255);
+    background-color: #352F44;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.back button:hover{
+    cursor: pointer;
+    /* border: 2px solid rgb(153, 119, 119); */
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+
+}

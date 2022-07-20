@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #352F44;
+}
+
+.grid-container{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#image{
+    max-width: 150px ;
+    max-height: 150px;
+}
+
+#warning{
+    display: none;
+    text-align: center;
+    color:white;
+    margin-top: 50px;
+}
+
+#name{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.button{
+    margin-top: 20px;
+    text-align: right;
+    padding-right:100px ;
+    padding: 10px;
+    min-height: fit-content;
+    max-height: 40px ;
+}
+.grid-container1{
+    cursor: pointer;
+    border-radius:20px ;
+    background-color: #DBD8E3;
+    min-width: 200px;
+    max-width: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    min-height: 240px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.grid-container1:hover{
+    box-shadow: 1px 2px 5px white;
+}
+
+.mybutton{
+    color: rgb(0, 0, 0);
+    background-color: #DBD8E3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+.mybutton:hover{
+    cursor: pointer;
+    border: 2px solid rgb(153, 119, 119);
+    box-shadow: 5px 5px 10px white;
+}
+
+nav img{
+    width: 50px;
+    opacity: 100%;
+}
+nav p {
+    margin: 10px;
+    font-size:20px ;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+}
+
+nav{
+    background-color: #DBD8E3;
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 70%;
+}
+a{
+    text-decoration: none;
+}

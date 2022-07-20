@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="description.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_x2b7YqajUBEPrjBgRc7Aa");
+        })();
+    </script>
+</head>
+
+<body>
+
+
+    <nav>
+
+        <a href="index.html"><img src="Phone_icon.png" alt=""></a>
+        <a href="index.html">
+            <p>Contact Manager</p>
+        </a>
+
+    </nav>
+    <div class="container">
+        <div class="left">
+            <a href="index.html"><button class="back">Back</button></a>
+            <button id="delete" class="delete">Delete</button>
+            <div class="inner-left">
+                <img id="image" src="doctor-icon-black-and-white-0.jpg" alt="hello">
+                <p id="name">Name</p>
+                <p id="email">Email</p>
+                <p id="phoneNumber">Phone Number</p>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h1 style="text-align: center;">
+                Send Email to <span id="nameofcontact">Name of the Contact</span>
+            </h1>
+
+            <div class="form-container">
+
+                <form action="">
+                    <p>
+                        <input type="text" id="myname" placeholder="Your Name">
+                    </p>
+                    <p>
+                        <input type="email" id="emailofsender" placeholder="Your Email">
+                    </p>
+                    <p>
+                        <input type="text" id="message" placeholder="Your message?">
+                    </p>
+                    <p style="text-align: center;"><button id="send" type="button">Send Mail</button></p>
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="description.js"></script>
+</body>
+
+</html>
